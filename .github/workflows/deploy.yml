@@ -40,4 +40,4 @@ jobs:
           sudo docker pull shamit10304/cicd-test:latest
           sudo docker stop cicd-test || true
           sudo docker rm cicd-test || true
-          sudo docker run -d --name cicd-test -p 3005:3000 shamit10304/cicd-test:latest
+          sudo docker run -d --name cicd-test -p 3005:3001 shamit10304/cicd-test:latest
